@@ -61,12 +61,5 @@ public class OperateExample {
         System.out.println("xx = " + xx);
         xx <<= 1; // x를 왼쪽으로 1비트 이동 후 저장 xx = xx << 3, 결과: 32
         System.out.println("xx = " + xx);
-
-        int a1 = 10;
-        int b2 = 20;
-        boolean flag1 = false;
-
-        int result1 = (++a1 * b2 - 15) > (b2 / 2) && !flag1 ? a1 + b2: b2 - a1;
-        System.out.println("result1 = " + result1);
     }
 }
