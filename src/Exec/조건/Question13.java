@@ -1,4 +1,4 @@
-package Exec;
+package Exec.조건;
 
 import java.util.Scanner;
 
@@ -32,7 +32,7 @@ public class Question13 {
                 switch(oper2){
                     case '*': result = n1 / n3 * n2; break;
                     case '/': result = n1 / n2 / n3; break;
-                    case '+': result = n1 / n2 - n3; break;
+                    case '+': result = n1 / n2 + n3; break;
                     case '-': result = n1 / n2 - n3; break;
                 }
             }
@@ -48,7 +48,7 @@ public class Question13 {
                 switch(oper2){
                     case '*': result = n1 - n2 * n3; break;
                     case '/': result = n1 - n2 / n3; break;
-                    case '+': result = n1 - n2 - n3; break;
+                    case '+': result = n1 - n2 + n3; break;
                     case '-': result = n1 - n2 - n3; break;
                 }
             }

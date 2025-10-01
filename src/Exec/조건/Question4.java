@@ -1,4 +1,4 @@
-package Exec;
+package Exec.조건;
 
 import java.util.Scanner;
 
